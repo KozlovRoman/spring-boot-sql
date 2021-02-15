@@ -4,7 +4,7 @@
 
 # Spring Boot, SQL - an example with PostgreSQL and JPA
 
-A simple Spring Boot application and Postgresql database connects to this App.
+A simple Spring Boot application and PostgreSQL database connects to this App.
 
 ### Technologies
 - Spring Boot
