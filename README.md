@@ -37,9 +37,9 @@ CREATE TABLE public.users
 CREATE UNIQUE INDEX users_id_uindex ON public.users (id);
 ```
 
-Since I specified FetchType.LAZY in entities, this will mean that Address will not be automatically retrieved from the database when Account is selected. 
-From a performance standpoint, this is a very good practice. Try to avoid FetchType.EAGER in real projects if you want to reduce the number of database queries. 
-In order to avoid the above error, you need to add @Transactional annotation above the service methods. This should fix the problem.
+Since I specified `FetchType.LAZY` in entities, this will mean that Address will not be automatically retrieved from the database when Account is selected. 
+From a performance standpoint, this is a very good practice. Try to avoid `FetchType.EAGER` in real projects if you want to reduce the number of database queries. 
+In order to avoid the above error, you need to add `@Transactional` annotation above the service methods. This should fix the problem.
 
 ## Contributions are welcome!
 
